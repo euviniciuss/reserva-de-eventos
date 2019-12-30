@@ -4,7 +4,7 @@ import './login.css';
 import firebase from '../../config/firebase';
 import 'firebase/auth';
 
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 
 export default function Login(){
 

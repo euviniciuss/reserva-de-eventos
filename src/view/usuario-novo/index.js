@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './usuario-novo.css';
 import firebase from '../../config/firebase';
 import 'firebase/auth';
+import Navbar from '../../components/navbar/';
 
 export default function NovoUsuario(){
     const [email, setEmail] = useState();
@@ -20,6 +21,7 @@ export default function NovoUsuario(){
     }
     return (
         <>
+            <Navbar/>
             <div className='form-cadastro'>
                 <form className='text-center form-login mx-auto mt-5'>
                     <h1 className='h3 mb-3 text-black font-weight-bold'>Cadastro</h1>
