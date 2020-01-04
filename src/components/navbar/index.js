@@ -5,11 +5,11 @@ import { useSelector, useDispatch } from 'react-redux';
 
 export default function Navbar(){
 
-    const dispach = useDispatch();
+    const dispatch = useDispatch();
 
     return(
         <nav className="navbar navbar-expand-lg">
-            <a className="navbar-brand text-white font-weight-bold" href="#">Eventos</a>
+            <i class="far fa-laugh-squint text-white fa-2x mr-2"></i>
 
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
                 <i className="fa fa-bars text-white"></i>
@@ -32,7 +32,7 @@ export default function Navbar(){
                             <Link className="nav-link" to="/">Meus Eventos</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" onClick={ () => dispach( {type: 'LOG_OUT'} )}>Sair</Link>
+                            <Link className="nav-link" onClick={ () => dispatch( {type: 'LOG_OUT'} )}>Sair</Link>
                         </li>
                     </>
 
