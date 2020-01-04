@@ -100,7 +100,7 @@ export default function EventoCadastro(){
                     <div className="row">
                         {
                             carregando > 0 ? <div class="spinner-border text-danger mx-auto" role="status"><span class="sr-only">Loading...</span></div> 
-                            : <button onClick = {cadastrarEvento} type='button' className='btn btn-lg btn-block mt-1 mb-5 btn-enviar'>Publicar Evento</button>
+                            : <button onClick = {cadastrarEvento} type='button' className='btn btn-lg btn-block mx-auto mt-1 mb-5 btn-enviar'>Publicar Evento</button>
                         }
                     </div>
 
