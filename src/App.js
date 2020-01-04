@@ -7,7 +7,8 @@ import { Provider } from 'react-redux';
 import Home from './view/home/'
 import Login from './view/login/';
 import NovoUsuario from './view/usuario-novo/'
-import RedefinirSenha from './view/redefinir-senha';
+import RedefinirSenha from './view/redefinir-senha/';
+import EventoCadastro from './view/evento-cadastro/'
 
 
 export default function App() {
@@ -18,6 +19,7 @@ export default function App() {
         <Route exact path='/novousuario' component={NovoUsuario}/>
         <Route exact path='/login' component={Login}/>
         <Route exact path = '/RedefinirSenha' component={RedefinirSenha}/>
+        <Route exact path = '/eventocadastro' component={EventoCadastro}/>
       </Router>
     </Provider>
   );
