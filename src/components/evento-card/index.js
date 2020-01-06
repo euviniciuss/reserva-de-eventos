@@ -7,7 +7,7 @@ export default function EventoCard(){
         <div className="col-md-3 col-sm-12">
             <img src="https://via.placeholder.com/500" className="card-img-top img-cartao" alt="Imagem do Evento"/>
 
-            <div className="card-body">
+            <div className="card-body my-2">
                 <h5>Titulo do Evento</h5>
                 <p className="card-text text-justify">Detalhes do Evento</p>
                 

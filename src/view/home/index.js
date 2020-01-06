@@ -12,7 +12,7 @@ export default function Home(){
             <h1> {useSelector( state => state.usuarioEmail)} </h1>
             <h1>Logado: {useSelector( state => state.usuarioLogin)} </h1>
 
-            <div className="row">
+            <div className="row mx-auto">
                 <EventoCard />
                 <EventoCard />
                 <EventoCard />
