@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 export default function EventoCard(){
     return(
         <div className="col-md-3 col-sm-12">
-            <img src="https://via.placeholder.com/500" className="card-img-top img-cartao" alt="Imagem do Evento"/>
+            <img src="https://via.placeholder.com/1000X500" className="card-img-top img-cartao" alt="Imagem do Evento"/>
 
             <div className="card-body my-2">
                 <h5>Titulo do Evento</h5>
